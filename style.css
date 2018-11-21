@@ -1,0 +1,31 @@
+* {
+margin:0;
+font:normal 16px/16px sans-serif;
+}
+a, a:link {
+background-color:#0b1ae8;
+color:gray;
+border:1px solid #DDDDDD;
+padding:8px;
+margin:4px;
+text-align:center;
+text-decoration: none;
+display:inline-block;
+-webkit-transition: all .4s;
+-moz-transition: all .4s;
+-ms-transition: all .4s;
+-o-transition: all .4s;
+transition: all .4s;
+}
+a:hover, a:focus {
+background-color:#fb0202;
+color:#0e0e0e;
+}
+@media screen and (max-width: 480px) {
+a:link {
+display:block;
+}
+
+}
+
+
